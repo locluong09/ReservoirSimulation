@@ -179,7 +179,8 @@ for t = 1:36
     end
 
 %% Update pressure
-    x = LHS\RHS;
+    LHSS=sparse(LHS);
+    x = LHSS\RHS;
     Pressure_update = zeros(row,col);
     por_new = zeros(row,col);
 
