@@ -43,11 +43,11 @@ Qo = 20 #STB/do
 delta_t = 5 #day
 
 
-oil_prop  = readdlm("/Users/luongkhanhloc/Desktop/CP3_Julia/oil_properties.txt")
-water_prop  = readdlm("/Users/luongkhanhloc/Desktop/CP3_Julia/water_properties.txt")
-gas_prop  = readdlm("/Users/luongkhanhloc/Desktop/CP3_Julia/gas_properties.txt")
-oil_water_rel  = readdlm("/Users/luongkhanhloc/Desktop/CP3_Julia/oil_water_rel_table.txt")
-gas_oil_rel  = readdlm("/Users/luongkhanhloc/Desktop/CP3_Julia/gas_oil_rel_table.txt")
+oil_prop  = readdlm("oil_properties.txt")
+water_prop  = readdlm("water_properties.txt")
+gas_prop  = readdlm("gas_properties.txt")
+oil_water_rel  = readdlm("oil_water_rel_table.txt")
+gas_oil_rel  = readdlm("gas_oil_rel_table.txt")
 
 
 function linearInterpolation(x::AbstractVector, y::AbstractVector, z::Float64)
