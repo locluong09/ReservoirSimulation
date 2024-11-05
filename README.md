@@ -23,8 +23,9 @@ Each cases, there are several implementations in Python, Matlab, Julia, and C++.
 1. Clone the repository:
   ```bash
   git clone https://github.com/locluong09/ReservoirSimulation
-
+  ```
 2. Example to run the blackoil simulation on Julia
   ```bash
   cd blackoil
   julia main.jl
+  ```
